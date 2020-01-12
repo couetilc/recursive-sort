@@ -2,9 +2,10 @@
   "name": "recursive-sort",
   "version": "1.0.0",
   "description": "sort javascript data types recursively",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --cache src/**"
   },
   "repository": {
     "type": "git",
@@ -17,11 +18,8 @@
   },
   "homepage": "https://github.com/couetilc/recursive-sort#readme",
   "devDependencies": {
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
   }
 }
